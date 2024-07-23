@@ -9,4 +9,4 @@ $y=az$において、最も重要な事実はなんだろう？
 
 So you can find this
 
-![dogs](../assets/dogs.webp)
+![dogs](../assets/images/dogs.webp)

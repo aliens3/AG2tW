@@ -11,4 +11,4 @@ hello
 
 $ y=ax $
 
-![](../assets/dogs.webp)
+![](../assets/images/dogs.webp)
