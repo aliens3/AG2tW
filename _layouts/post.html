@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.6.1/github-markdown-light.min.css" integrity="sha512-SLv8CNVAxhcbDQfwc9dS5OuZAAYqdTGJTBSUtKNQbCUO2gMno4Fp2Vn8Xsvj993RcofNfj2d5JA0jYBve4SEXA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="https://www.ag2tw.com/feed/en.xml">
+    <link rel="alternate" type="application/rss+xml" title="RSS日本語" href="https://www.ag2tw.com/feed/ja.xml">
+    <link rel="stylesheet" type="text/css" href="/assets/css/master.css">
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [ ['$', '$'], ['\\(', '\\)'] ]
+        },
+        svg: {
+          fontCache: 'global'
+        }
+      };
+      </script>
+      <script
+        type="text/javascript" id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+      </script>
+    
+    <style>
+      .markdown-body {
+        box-sizing: border-box;
+        min-width: 200px;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 45px;
+      }
+    
+      @media (max-width: 767px) {
+        .markdown-body {
+          padding: 15px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <article class="markdown-body">
+      <nav><a href="/">ag2tw</a></nav>
+      {{ content }}
+    </article>
+  </body>
+</html>

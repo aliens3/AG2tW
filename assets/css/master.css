@@ -1,0 +1,68 @@
+/* Base styles for all callouts */
+.note, .info, .summary {
+    border-radius: 4px;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    background-color: #f8f9fa;
+}
+
+/* Specific styles for each callout type */
+.note {
+    border-color: #007bff;
+    background-color: #e7f2ff;
+}
+
+.info {
+    border-color: #17a2b8;
+    background-color: #e6f7f9;
+}
+
+.summary {
+    border-color: #28a745;
+    background-color: #e7f7e9;
+}
+
+/* Heading styles within callouts */
+.note h2, .info h2, .summary h2 {
+    margin-top: 0;
+    color: #333;
+    font-size: 1.25rem;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* List styles within callouts */
+.note ul, .info ul, .summary ul,
+.note ol, .info ol, .summary ol {
+    padding-left: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Paragraph styles within callouts */
+.note p, .info p, .summary p {
+    margin-bottom: 0.5rem;
+}
+
+/* Add icons to callouts (using Unicode characters) */
+.note::before, .info::before, .summary::before {
+    content: "";
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+.note::before {
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJDNi40NyAyIDIgNi40NyAyIDEyczQuNDcgMTAgMTAgMTAgMTAtNC40NyAxMC0xMFMxNy41MyAyIDEyIDJabTAgMmM0LjQxIDAgOCAzLjU5IDggOHMtMy41OSA4LTggOC04LTMuNTktOC04IDgtOCIgc3Ryb2tlPSIjMDA3YmZmIiBzdHJva2Utd2lkdGg9IjIiLz4KPHBhdGggZD0iTTEwIDEwSDIwIiBzdHJva2U9IiMwMDdiZmYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CjxwYXRoIGQ9Ik0xMCAxNEgyMCIgc3Ryb2tlPSIjMDA3YmZmIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8cGF0aCBkPSJNMTAgMThIMjAiIHN0cm9rZT0iIzAwN2JmZiIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPC9zdmc+Cg==');
+    color: #007bff;
+}
+
+.info::before {
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzE3YTJiOCI+PHBhdGggZD0iTTEyIDBDNS4zNzMgMCAwIDUuMzczIDAgMTJzNS4zNzMgMTIgMTIgMTIgMTItNS4zNzMgMTItMTJTMTguNjI3IDAgMTIgMHptMSAxN2gtMnYtMmgydjJ6bTAtNGgtMlY3aDJ2NnptLTQtNkg3VjdoMnY2eiIvPjwvc3ZnPg==');
+    color: #17a2b8;
+}
+
+.summary::before {
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiMxN2EyYjgiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNOSAxOGgyTTEwIDIyaDRNMTUgNmE1IDUgMCAxIDAtNiAwIDcgNyAwIDAgMSA2IDB2MmE0IDQgMCAwIDEtMiAzLjQ4IDQgNCAwIDAgMC0yIDMuNDgiPjwvcGF0aD48L3N2Zz4=');
+    color: #28a745;
+}
+
