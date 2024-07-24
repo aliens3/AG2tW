@@ -6,3 +6,5 @@ vendor
 .obsidian/
 .DS_Store
 templateOb/
+internal/
+Excalidraw/
