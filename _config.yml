@@ -38,6 +38,14 @@ relative_links:
   enabled:     true
   collections: true
 
+livereload: true
+
+include:
+  - _ja
+  - _en
+  - ja
+  - en
+
 
 collections:
   en:

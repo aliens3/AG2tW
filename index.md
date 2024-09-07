@@ -5,6 +5,23 @@
 layout: default
 ---
 
-Hi. This is AG2tW.
+Learning excites me.  
+I want to share this excitement with someone, so I write this blog.
 
-I write this stuff so that you know the world is interesting.
+For insights into the big picture, check out this post.
+
+
+Ready to explore some fascinating examples? Here are my favorites:
+
+ああいいうう
+そもそもどんな手を使っても
+
+Who I am:
+- Japanese 
+- 26 year old
+- man 
+- lives in Tokyo, Japan
+- works as an intern pathologist
+- wakes up 5a.m. every morning to write this blog
+- OK?
+- NO.
