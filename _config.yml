@@ -39,6 +39,7 @@ relative_links:
   collections: true
 
 livereload: true
+livereload_min_delay: 0.5
 
 include:
   - _ja
