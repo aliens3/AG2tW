@@ -11,7 +11,10 @@ What is Mendel's law of inheritance? It's a three law,
 
 and it explains the result on pea plants conducted in his church garden.
 
-![300](../assets/images/Mendel's-experiment-summary.png)
+
+<imagewrap class="image-grid">
+    <img src="../assets/images/Mendel's-experiment-summary.png" alt="">
+</imagewrap>
 
 But, how many of us can really care about whether the pea seed is wrinkled or not ? Isn't there a more motivating example?
 
