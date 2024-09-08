@@ -1,6 +1,7 @@
 ---
-title:  "Welcome to Jekyll!"
-date:   2024-07-22 14:30:00 +0900
+title: たちつてと
+date: 2024-08-04 12:47 +0900
+layout: post
 ---
 
-[README](../en/hello.md)
+[README](../_en/hello.md)
