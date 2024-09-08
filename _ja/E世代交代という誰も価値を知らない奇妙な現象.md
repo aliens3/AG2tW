@@ -1,4 +1,8 @@
-
+---
+title: メンデルの法則
+date: 2024-07-22 14:30:00 +0900
+layout: post
+---
 人間は精子、卵子 配偶子形成
 ![](../assets/images/meiosis_wiki.png)
 ![](../assets/images/精子卵子形成.png)　
