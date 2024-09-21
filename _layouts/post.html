@@ -28,14 +28,25 @@
       </script>
     
     <style>
+      @font-face {
+            font-family: 'SFPro';
+            src: url('/assets/fonts/SF-Pro-Text-Regular.otf') format('truetype');
+            font-weight: normal;
+        }
+        @font-face {
+            font-family: 'SFPro';
+            src: url('/assets/fonts/SF-Pro-Text-Bold.otf') format('truetype');
+            font-weight: bold;
+        }
+        
       .markdown-body {
         box-sizing: border-box;
         min-width: 200px;
         max-width: 800px;
         margin: 0 auto;
         padding: 45px 35px 45px 34px;
-        font-size: 18px;
-        border-left: 1px dashed rgb(100,100,100);
+        font-size: 16px;
+        font-family: 'SFPro', sans-serif;
       }
       .markdown-body h1 {
         font-size: 24px;
@@ -43,12 +54,15 @@
         margin-left: auto;
         margin-right: auto;
         border-bottom: none;
-        
+      }
+
+      .markdown-body main img{
+        margin: auto;
       }
 
 
       #header{
-        margin-bottom: 40px;
+        margin-bottom: 30px;
       }
       date {
         width: fit-content;
@@ -126,7 +140,6 @@
       <main>
         <div id="header">
           <h1>{{page.title}}</h1>
-          <date>{{page.date}}</date>
         </div>
         {{ content }}
       </main>
