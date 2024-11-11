@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"b3c311c6efbd6912","type":"text","text":"進化","x":-87,"y":60,"width":125,"height":60},
+		{"id":"7da8909c7334ddb4","type":"text","text":"自然選択","x":-320,"y":254,"width":134,"height":50},
+		{"id":"c7c6b6bafa00d6d3","x":-170,"y":254,"width":170,"height":50,"type":"text","text":"遺伝的浮動"},
+		{"id":"a9ab5edc4267c8e8","type":"text","text":"流入・流出","x":20,"y":254,"width":160,"height":50},
+		{"id":"a4b024c1fa58b63d","x":220,"y":254,"width":140,"height":50,"type":"text","text":"突然変異"}
+	],
+	"edges":[
+		{"id":"4547722107f16f43","fromNode":"b3c311c6efbd6912","fromSide":"bottom","toNode":"7da8909c7334ddb4","toSide":"top"},
+		{"id":"e1c0161a3a486168","fromNode":"b3c311c6efbd6912","fromSide":"bottom","toNode":"a9ab5edc4267c8e8","toSide":"top"},
+		{"id":"7a1b0f379990742a","fromNode":"b3c311c6efbd6912","fromSide":"bottom","toNode":"c7c6b6bafa00d6d3","toSide":"top"},
+		{"id":"13557ee3a3dac966","fromNode":"b3c311c6efbd6912","fromSide":"bottom","toNode":"a4b024c1fa58b63d","toSide":"top"}
+	]
+}
